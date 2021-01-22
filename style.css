@@ -3,23 +3,23 @@
   padding: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: Fredoka;
   src: url(./Fredoka/FredokaOne-Regular.ttf);
   font-weight: 400;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: mrs;
   src: url(./mrs/mrsmonster.ttf);
   font-weight: 400;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: yusei;
   src: url(./yusei/YuseiMagic-Regular.ttf);
   font-weight: 400;
-}
+} */
 
 body {
   background-color: #211a1e;
@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Fredoka;
+  /*  font-family: Fredoka; */
 }
 
 .space {
@@ -64,19 +64,18 @@ body {
   background: linear-gradient(-45deg, rgba(175, 0, 105, 1) 20%, #16697a 60%);
   -webkit-background-clip: text;
   color: transparent;
-  /* color: ; */
 }
 
 .card-info {
   font-size: 130%;
   padding: 30px;
   text-align: center;
-  font-family: yusei;
+  /* font-family: yusei; */
 }
 
 .card-info-extra {
   font-size: 130%;
   margin-top: 20px;
   padding: 0 30px;
-  font-family: mrs;
+  /*   font-family: mrs; */
 }
